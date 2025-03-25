@@ -5,7 +5,6 @@ from data.jobs import Jobs
 from forms.user import RegisterForm, LoginForm
 from forms.jobs import JobsForm
 from flask_login import LoginManager, login_user, logout_user, login_required
-import datetime
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
